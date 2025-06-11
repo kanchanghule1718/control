@@ -1,0 +1,61 @@
+.location-container {
+    max-width: 900px;
+   
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .location-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .location-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .location-table th,
+  .location-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .location-table thead {
+    background-color: #fcf004;
+  }
+  
+  .location-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .error-msg {
+    color: red;
+    text-align: center;
+  }
+  
+  .info-msg {
+    color: #555;
+    text-align: center;
+  }
+  
+
+  .customer-search {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px 12px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  .customer-search:focus {
+    box-shadow: none;
+    border: 1px solid #ffe204;
+  }

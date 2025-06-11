@@ -1,0 +1,30 @@
+.navbar {
+    padding: 10px;
+    z-index: 999;
+    
+  }
+  
+/* Add this at the bottom of CustNavbar.css */
+
+.navbar.bg-dark {
+    background-color: #1f2d3d !important; /* Muted navy blue */
+  }
+  
+
+  .sidebar-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .logo {
+    /* height: 40px; */
+    width: 75px;
+  }
+  
+  .navbar-brand{
+    width: 95vw;
+  }

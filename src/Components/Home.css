@@ -1,0 +1,39 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content {
+    display: flex;
+  }
+  
+  .content-area {
+    flex-grow: 1;
+    padding: 20px;
+    padding-top: 120px;
+    transition: margin 0.3s ease;
+  }
+  
+  .content-area.expanded {
+    margin-left: 250px;
+  }
+  
+  .content-area.collapsed {
+    margin-left: 80px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100px;
+    }
+  
+    .content-area.expanded {
+      /* margin-left: 100px; */
+    }
+  
+    .content-area.collapsed {
+      margin-left: 50px;
+    }
+  }
+  

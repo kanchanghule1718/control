@@ -1,0 +1,105 @@
+.add-building-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* padding: 20px; */
+}
+
+.add-building-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    /* text-align: center; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 40px;
+}
+
+/* select, input:hover, select:focus, input:focus {
+    border: 1px solid #badc81; 
+} */
+select, select:focus {
+    border: 1px solid #81b3dc; /* Apply the green border on hover and focus */
+}
+
+button {
+    background-color: #badc81;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: rgb(32, 146, 32);
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+}
+
+.ShowMsg {
+    margin-top: 10px;
+    font-size: 14px;
+    color: green;
+    text-align: center;
+}
+
+/* .form-group input,
+.form-group select {
+  width: 250px;                       /Adjust width to match dropdowns 
+  height: 35px;                          Reduce height to match dropdowns 
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} */
+
+.btn{
+    background-color: #badc81;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .add-building-container {
+        padding: 10px;
+    }
+
+    form {
+        width: 100%;
+        max-width: 100%;
+    }
+}

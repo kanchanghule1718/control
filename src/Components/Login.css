@@ -1,0 +1,156 @@
+/* Background styling */
+.login-container {
+    /* background: linear-gradient(to right, rgba(94, 129, 71, 0.7), rgba(150, 173, 87, 0.7)); */
+    background: url('https://media.istockphoto.com/id/1274283238/photo/common-ant-on-the-kitchen-table-close-to-food-need-for-pest-control.jpg?s=612x612&w=0&k=20&c=I-yo1bA_XCxHfuN3tKfCUt1fhsnKw-JI2xX1VLVnK54=') no-repeat center center/cover;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Login container */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login-container img{
+    border-radius: 50%;
+  }
+
+  .input1{
+    margin-bottom: 8px;
+  }
+  
+  /* Login box */
+  .login-box {
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: none;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    box-shadow:rgb(135, 114, 114) 2px 10px 10px;
+    text-align: center;
+    width: 420px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Input group */
+  .input-group {
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 10px;
+  }
+  
+  /* Input field */
+  .input-field {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* padding: 10px; */
+  }
+  
+  /* .input-field input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+    font-size: 14px;
+  } */
+  
+.input-field input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px 5px; /* Adjusted padding */
+    font-size: 14px;
+    line-height: 20px; /* Ensure this matches the height of the input */
+}
+
+.input-field input::placeholder {
+    color: #888; /* Optional: placeholder color */
+    line-height: 20px; /* Match line-height to center placeholder vertically */
+}
+
+  
+ /* Add Font Awesome icons for Username and Password */
+.input-field .icon {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #FFC300; /* Optional: color the icons */
+  }
+  
+  /* Forgot password */
+  .forgot-password {
+    text-align: right;
+    margin: 10px 0;
+  }
+  
+  .forgot-password a {
+    text-decoration: none;
+    color: #998d1d;
+    font-size: 13px;
+  }
+  
+  /* Login button */
+  .login-buttonClass {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    /* background: linear-gradient(to right, #2fcf52, #39db4e); */
+    background-color: #FFC300;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .login-buttonClass:hover {
+    opacity: 0.9;
+    background-color: #ccc19e;
+  }
+  .login-buttonClass:active {
+    opacity: 0.9;
+    background-color: #ccc19e;
+  }
+
+  /* Btn Styling submit and back */
+.custom-btn {
+    padding: 5px 20px;
+    background-color: #949637;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    /* Smooth transition */
+    display: inline-block;
+    /* Ensure proper alignment */
+  }
+
+  .custom-btn:hover {
+    background-color: #e0d251;
+    /* Darker shade for hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    /* Slight zoom effect */
+    transform-origin: center;
+    /* Zoom from the center */
+  }

@@ -1,0 +1,198 @@
+/* Base styling */
+/* body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+} */
+
+/* Container for the entire component */
+.checkpoint-status-container {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+    margin: 0;
+    
+    left:0;
+    padding: 0;
+    max-width: 100%;
+    margin: 0px;
+    padding: 20px;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    padding-bottom: 40px;
+  }
+  
+  h1 {
+    /* text-align: center; */
+    color: #333;
+    font-size: 2.0em;
+    margin-bottom: 5px;
+  }
+  
+  h2 {
+    /* text-align: center; */
+    color: #444;
+    font-size: 1.8em;
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the label and select box */
+  label {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    display: block;
+    color: #555;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  select:focus {
+    outline: none;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 8px rgba(0, 121, 191, 0.5);
+  }
+  
+  /* Table Styling */
+  .check_table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .check_table th {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+    font-size: 0.8em;
+  }
+  .check_table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+    font-size: 1em;
+  }
+  
+  .check_table th {
+    background-color: #b8ac0d;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .check_table td {
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    text-align: left;
+  }
+  
+  .check_table td:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Button Styling */
+  .check_table button {
+    padding: 1px 4px;
+    background-color: #badc81;;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+.selected-btn {
+  background-color: rgb(255, 99, 71) !important; /* Highlight color */
+  color: white !important;
+}
+
+  /* Glossy effect for the card container */
+  .checkpoint-status-container {
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+  }
+  
+  .checkpoint-status-container h2 {
+    font-size: 1.7em;
+    color: #444;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .check_table table {
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .check_table th {
+    /* background: rgba(80, 79, 15, 0.6);     #bec4b0 */
+    background: #dcdcdc;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .check_table table td {
+    background: #f9f9f9;
+    padding: 0px;
+  }
+  
+  .check_table tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Responsive Design for smaller screens */
+  @media (max-width: 768px) {
+    .checkpoint-status-container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    h2 {
+      font-size: 1.5em;
+    }
+  
+    table th, table td {
+      padding: 8px;
+    }
+  
+    select {
+      max-width: 100%;
+      height: 40px;
+    }
+  }
+  
